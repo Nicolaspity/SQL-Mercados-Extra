@@ -20,6 +20,7 @@ Este projeto tem como objetivo a modelagem e implementação de um banco de dado
 O banco de dados contempla as seguintes entidades:
 
 - **Clientes**
+- **Compra**
 - **Produtos**
 - **Categoria_produto**
 

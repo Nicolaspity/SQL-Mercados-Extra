@@ -61,11 +61,8 @@ O banco de dados contempla as seguintes **entidades e atributos**:
 ### 🔗 Relacionamentos
 
 - Um cliente pode fazer **muitas compras**
-- Muitas compras pertencem a **um cliente**
 - Uma compra pode incluir **vários produtos**
-- Muitos produtos podem estar em **uma compra**
 - Cada produto está **em uma categoria**
-- Uma categoria pode ter **muitos produtos**
 
 ---
 

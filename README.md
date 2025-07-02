@@ -19,12 +19,14 @@ Este projeto tem como objetivo a modelagem e implementação de um banco de dado
 ## 🔁 Modelo Entidade-Relacionamento (ER)
 O banco de dados contempla as seguintes entidades:
 
+
 - **Cliente**
 - Cliente_id
 - Primeiro nome
 - Segundo nome
 - Email
 - Endereço
+
   
 - **Compra**
 - Compra_id
@@ -32,18 +34,22 @@ O banco de dados contempla as seguintes entidades:
 - Forma_pagamento
 - Produto_id
 - Cliente_id
+
   
 - **Produto**
 - Produto_id
 - Nome_produto
 - Inventário
+
   
 - **Categoria_produto**
 - Categoria_produto_id
 - Categoria_produto
 - Produto_id
 
+
 E os seguintes relacionamentos:
+
 
 - O cliente pode fazer muitas compras
 - Muitas compras podem ser de um cliente

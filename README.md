@@ -1,9 +1,8 @@
 # 🏦 Banco de Dados - Supermercado Extra
 
-Projeto criado por [@Nicolaspity](https://github.com/Nicolaspity)
 
 ## 📃 Descrição
-Este projeto tem como objetivo a modelagem e implementação de um banco de dados para um supermercado fictício: o **Supermercado Extra**. O sistema inclui:
+Este projeto tem como objetivo a modelagem e implementação de um banco de dados para um supermercado online e tem duração máxima de 12 horas. O sistema inclui:
 
 - Criação do banco de dados
 - Definição de tabelas com chaves primárias e estrangeiras
@@ -30,18 +29,18 @@ O banco de dados contempla as seguintes entidades:
 
 E os seguintes relacionamentos:
 
-- Um cliente pode fazer várias vendas
-- Cada venda possui múltiplos produtos
-- Cada produto pertence a uma categoria e é fornecido por um fornecedor
+- 
+- 
+- 
 
 ## 📈 Exemplos de Consultas
 
 Algumas consultas já implementadas:
 
-- Total de vendas por mês
-- Produtos mais vendidos
-- Clientes que mais compraram
-- Receita total por categoria de produto
+- 
+- 
+- 
+- 
 
 ## ⚙️ Como Executar
 

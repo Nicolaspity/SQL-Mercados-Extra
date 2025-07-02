@@ -26,9 +26,11 @@ O banco de dados contempla as seguintes entidades:
 
 E os seguintes relacionamentos:
 
-- O cliente pode fazer a compra de muitos produtos
-- Muitos produtos podem ser comprados por um cliente
-- Um produto está presente em uma categoria
+- O cliente pode fazer muitas compras
+- Muitas compras podem ser de um cliente
+- Uma compra pode ter varios produtos
+- Muitos produtos podem estar presentes em uma compra
+- Cada produto está e presente em uma categoria
 - Uma categoria pode ter muitos produtos
 
 ## 🔎 Exemplos de Consultas

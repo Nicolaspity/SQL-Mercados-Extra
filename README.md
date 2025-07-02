@@ -20,12 +20,14 @@ Este projeto tem como objetivo a modelagem e implementação de um banco de dado
 O banco de dados contempla as seguintes entidades:
 
 
+
 - **Cliente**
 - Cliente_id
 - Primeiro nome
 - Segundo nome
 - Email
 - Endereço
+
 
   
 - **Compra**
@@ -35,17 +37,20 @@ O banco de dados contempla as seguintes entidades:
 - Produto_id
 - Cliente_id
 
+
   
 - **Produto**
 - Produto_id
 - Nome_produto
 - Inventário
 
+
   
 - **Categoria_produto**
 - Categoria_produto_id
 - Categoria_produto
 - Produto_id
+
 
 
 E os seguintes relacionamentos:

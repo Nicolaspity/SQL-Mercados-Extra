@@ -1,4 +1,4 @@
-# 🏦 Banco de Dados - Supermercado Extra
+# 📊 Banco de Dados - Supermercado Extra
 
 
 ## 📃 Descrição
@@ -10,22 +10,22 @@ Este projeto tem como objetivo a modelagem e implementação de um banco de dado
 - Inserção de dados
 - Consultas SQL para extração de informações relevantes
 
-## 📆 Estrutura do Projeto
+## 📋 Estrutura do Projeto
 
 - `scripts/` - Contém os scripts SQL para criação e população do banco
 - `consultas/` - Scripts com as principais consultas feitas no banco
 - `diagramas/` - Diagramas do modelo entidade-relacionamento (MER)
 
-## 🔄 Modelo Entidade-Relacionamento (MER)
+## 🔁 Modelo Entidade-Relacionamento (MER)
 O banco de dados contempla as seguintes entidades:
 
-- **Clientes**
-- **Produtos**
-- **Funcionários**
-- **Vendas**
-- **Itens da Venda**
-- **Fornecedores**
-- **Categorias de Produtos**
+- ****
+- 
+- 
+- 
+- 
+- 
+- 
 
 E os seguintes relacionamentos:
 
@@ -33,7 +33,7 @@ E os seguintes relacionamentos:
 - 
 - 
 
-## 📈 Exemplos de Consultas
+## 🔎 Exemplos de Consultas
 
 Algumas consultas já implementadas:
 

@@ -95,10 +95,4 @@ Algumas consultas planejadas para este projeto:
 
 ---
 
-## 📫 Contato
-
-- GitHub: [Nicolaspity](https://github.com/Nicolaspity)
-
----
-
 > Projeto acadêmico com fins didáticos: simula um banco de dados completo para um supermercado online.

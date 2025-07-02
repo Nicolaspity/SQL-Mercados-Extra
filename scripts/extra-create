@@ -19,13 +19,15 @@ create table compra (
 create table produto (
 	produto_id serial primary key,
 	nome varchar(50),
-	inventario int
+	inventario int,
+	categoria_id int,
+	foreign key (categoria_id) references categoria(categoria_id)
 )
 
 create table categoria (
 	categoria_id serial primary key,
 	categoria varchar(30),
-	produto_id int,
-	foreign key (produto_id) references produto(produto_id)
+	produto_id int
 )
+
 

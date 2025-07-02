@@ -19,19 +19,16 @@ Este projeto tem como objetivo a modelagem e implementação de um banco de dado
 ## 🔁 Modelo Entidade-Relacionamento (MER)
 O banco de dados contempla as seguintes entidades:
 
-- ****
-- 
-- 
-- 
-- 
-- 
-- 
+- **Clientes**
+- **Produtos**
+- **Categoria_produto**
 
 E os seguintes relacionamentos:
 
-- 
-- 
-- 
+- O cliente pode fazer a compra de muitos produtos
+- Muitos produtos podem ser comprados por um cliente
+- Um produto está presente em uma categoria
+- Uma categoria pode ter muitos produtos
 
 ## 🔎 Exemplos de Consultas
 

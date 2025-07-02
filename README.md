@@ -9,13 +9,14 @@ Este projeto tem como objetivo a modelagem e implementação de um banco de dado
 - Relacionamentos entre tabelas
 - Inserção de dados
 - Consultas SQL para extração de informações relevantes
-
+---
 ## 📋 Estrutura do Projeto
 
 - `scripts/` - Contém os scripts SQL para criação e população do banco
 - `consultas/` - Scripts com as principais consultas feitas no banco
 - `diagramas/` - Diagramas do modelo entidade-relacionamento (ER)
-
+  
+---
 ## 🔁 Modelo Entidade-Relacionamento (ER)
 O banco de dados contempla as seguintes entidades:
 
@@ -62,21 +63,7 @@ E os seguintes relacionamentos:
 - Muitos produtos podem estar presentes em uma compra
 - Cada produto está e presente em uma categoria
 - Uma categoria pode ter muitos produtos
-
-  ## 🔁 Tabelas
-
-- **Clientes**
-- Cliente_id
-- Primeiro nome
-- Segundo nome
-- **Compra**
-- 
-- **Produtos**
-- 
-- **Categoria_produto**
-- 
-
-
+---
 ## 🔎 Exemplos de Consultas
 
 Algumas consultas já implementadas:
@@ -85,7 +72,7 @@ Algumas consultas já implementadas:
 - 
 - 
 - 
-
+---
 ## ⚙️ Como Executar
 
 1. Clone o repositório:

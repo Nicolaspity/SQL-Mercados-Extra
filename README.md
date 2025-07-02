@@ -1,6 +1,6 @@
 # 📊 Banco de Dados - Supermercado Extra
 
-
+--- 
 ## 📃 Descrição
 Este projeto tem como objetivo a modelagem e implementação de um banco de dados para um supermercado online e tem duração máxima de 12 horas. O sistema inclui:
 

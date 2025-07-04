@@ -1,33 +1,37 @@
-create table cliente (
-	cliente_id serial primary key,
-	primeiro_nome varchar(80),
-	ultimo_nome varchar(80),
-	email varchar(50),
-	endereco text
-)
+CREATE TABLE cliente (
+    cliente_id SERIAL PRIMARY KEY,
+    primeiro_nome VARCHAR(80),
+    ultimo_nome VARCHAR(80),
+    email VARCHAR(50),
+    endereco TEXT
+);
 
-create table compra (
-	compra_id serial primary key,
-	data_compra date,
-	forma_pagamento varchar(10),
-	produto_id int,
-	cliente_id int,
-	foreign key (produto_id) references produto(produto_id),
-	foreign key (cliente_id) references cliente(cliente_id)
-)
+CREATE TABLE categoria (
+    categoria_id SERIAL PRIMARY KEY,
+    categoria VARCHAR(30)
+);
 
-create table produto (
-	produto_id serial primary key,
-	nome varchar(50),
-	inventario int,
-	categoria_id int,
-	foreign key (categoria_id) references categoria(categoria_id)
-)
+CREATE TABLE produto (
+    produto_id SERIAL PRIMARY KEY,
+    nome VARCHAR(50),
+    inventario INT,
+    categoria_id INT,
+    FOREIGN KEY (categoria_id) REFERENCES categoria(categoria_id)
+);
 
-create table categoria (
-	categoria_id serial primary key,
-	categoria varchar(30),
-	produto_id int
-)
+CREATE TABLE compra (
+    compra_id SERIAL PRIMARY KEY,
+    data_compra DATE,
+    forma_pagamento VARCHAR(10),
+    cliente_id INT,
+    FOREIGN KEY (cliente_id) REFERENCES cliente(cliente_id)
+);
 
-
+CREATE TABLE compra_produto (
+	compra_produto serial primary key,
+    compra_id INT,
+    produto_id INT,
+    quantidade INT,
+    FOREIGN KEY (compra_id) REFERENCES compra(compra_id),
+    FOREIGN KEY (produto_id) REFERENCES produto(produto_id)
+);

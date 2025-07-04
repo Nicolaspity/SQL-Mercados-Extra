@@ -92,4 +92,4 @@ Algumas consultas planejadas para este projeto:
 
 ---
 
-> Projeto acadêmico com fins didáticos: simula um banco de dados completo para um supermercado online.
+> Projeto acadêmico com fins didáticos: simula um banco de dados completo para um supermercado online como tarefa de Unidade Currilar **Banco de Dados** do curso Desenvolvimenbto de Sistemas (2023) Senai Petropolis

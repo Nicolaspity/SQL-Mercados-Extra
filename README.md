@@ -2,23 +2,16 @@
 
 ---
 
-## 📃 Descrição
+## 📃 Descrição do Projeto
 
-Este projeto tem como objetivo a modelagem e implementação de um banco de dados para um supermercado online. É planejado para ser desenvolvido em até 12 horas. O sistema inclui:
+Este projeto tem como objetivo a modelagem e implementação de um banco de dados para um supermercado online. Além disso, espera-se que esse projeto agregue conhecimento em todos os envolvidos, tanto em aprendizagem teórica (conceitos), tanto em aprendizagem prática (codigos) . O sistema fiqtício inclui:
 
 - Criação do banco de dados
 - Definição de tabelas com chaves primárias e estrangeiras
 - Relacionamentos entre tabelas
 - Inserção de dados
 - Consultas SQL para extração de informações relevantes
-
----
-
-## 📋 Estrutura do Projeto
-
-- `scripts/` — Scripts SQL para criação e população do banco
-- `consultas/` — Scripts com as principais consultas realizadas no banco
-- `diagramas/` — Diagramas do modelo entidade-relacionamento (ER)
+- Diagrama conceitual modelo entidade-relacionamento (ER) no Draw Io
 
 ---
 

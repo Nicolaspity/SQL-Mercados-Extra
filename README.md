@@ -4,7 +4,7 @@
 
 ## 📃 Descrição do Projeto
 
-Este projeto tem como objetivo a modelagem e implementação de um banco de dados para um supermercado online. Além disso, espera-se que esse projeto agregue conhecimento em todos os envolvidos, tanto em aprendizagem teórica (conceitos), tanto em aprendizagem prática (codigos) . O sistema fiqtício inclui:
+Este projeto tem como objetivo a modelagem e implementação de um banco de dados para um supermercado online. Além disso, espera-se que esse projeto agregue conhecimento em todos os envolvidos, tanto em aprendizagem teórica (conceitos), tanto em aprendizagem prática (codigos) . O sistema fictício inclui:
 
 - Criação do banco de dados
 - Definição de tabelas com chaves primárias e estrangeiras
@@ -15,9 +15,9 @@ Este projeto tem como objetivo a modelagem e implementação de um banco de dado
 
 ---
 
-## 🔁 Modelo Entidade-Relacionamento (ER)
+## 🔁 Tabelas
 
-O banco de dados contempla as seguintes **entidades e atributos**:
+O banco de dados contempla as seguintes tabelas:
 
 ### 🧾 Cliente
 - `cliente_id` (PK)

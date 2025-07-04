@@ -26,40 +26,38 @@ O banco de dados contempla as seguintes tabelas:
 - `email`
 - `endereco`
 
----
-
 ### 🛒 Compra
 - `compra_id` (PK)
 - `data_compra`
 - `forma_pagamento`
-- `produto_id` (FK)
 - `cliente_id` (FK)
 
----
-
+### 🏷️ Compra_produto
+- `compra_id` (FK)
+- `produto_id` (FK)
+- `quantidade`
+  
 ### 📦 Produto
 - `produto_id` (PK)
-- `nome_produto`
+- `nome`
 - `inventario`
 
----
-
-### 🗂️ Categoria_Produto
+### 🗂️ Categoria
 - `categoria_produto_id` (PK)
 - `categoria_produto`
-- `produto_id` (FK)
 
----
+
 
 ### 🔗 Relacionamentos
 
 - Um cliente pode fazer **muitas compras**
-- Uma compra pode incluir **vários produtos**
-- Cada produto está **em uma categoria**
+- Uma categoria pode incluir **vários produtos**
+- Cada compra pode conter **vários produtos**
+- Vários produtos podem estar em **uma compra**
 
 ---
 
-## 🔎 Exemplos de Consultas
+## 🔎 Consultas
 
 Algumas consultas planejadas para este projeto:
 

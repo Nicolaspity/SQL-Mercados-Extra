@@ -385,25 +385,12 @@ ORDER BY co.data_compra;
 
 -- LUIS FILIPE
 
---consulta dos produtos do inventário e suas respectivas categorias categorias
+--consulta do preço do shampoo pantene 400ml
+SELECT preco
+FROM produto
+WHERE nome = 'Shampoo Pantene 400ml';
 
-select
-	p.nome as "Nome do Produto",
-	c.categoria as "Categoria"
-from
-	produto p
-inner join categoria c on
-	p.categoria_id = c.categoria_id;
-
--- consulta de quantas items na categoria existem
-select
-	count(*) as "Total de Bebidas"
-from
-	produto p
-inner join categoria c on
-	p.categoria_id = c.categoria_id
-where
-	c.categoria = 'Bebidas';
+--
 
 
 -- NICOLAS

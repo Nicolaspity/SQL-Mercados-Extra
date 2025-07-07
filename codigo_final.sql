@@ -356,12 +356,13 @@ SELECT preco
 FROM produto
 WHERE nome = 'Shampoo Pantene 400ml';
 
---consulta dos produtos abaixo de 10 reais
-SELECT produto.nome, produto.preco
+--consulta do produto mais caro para o mais barato
+SELECT produto.nome, produto.preco, categoria.categoria
 FROM produto
 INNER JOIN categoria
 ON produto.categoria_id = categoria.categoria_id
-WHERE produto.preco < 10.00;
+ORDER BY produto.preco DESC;
+
 
 -- NICOLAS
 -- Consulta de quantos clientes compraram o produto de id = 2 ?

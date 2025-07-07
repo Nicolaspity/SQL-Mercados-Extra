@@ -451,3 +451,27 @@ GROUP BY
     cli.cliente_id, cli.primeiro_nome, cat.categoria
 ORDER BY 
     cli.cliente_id, total_itens DESC;
+
+--Toledo :
+
+--consulta avançada que pega todos os produtos de certa categoria
+select
+	p.produto_id,
+	p.nome,
+	p.preco,
+	p.inventario,
+	cat.categoria
+from
+	produto p
+inner join categoria cat on
+	p.categoria_id = cat.categoria_id
+where
+	lower(cat.categoria) = 'livros'; 
+
+
+--consulta basica que verifica e exibe os itens de brinquedos ordenados do mais caro para o mais barato
+SELECT nome, preco, inventario, avaliacao
+FROM produto
+WHERE categoria_id = 6
+ORDER BY preco DESC;
+

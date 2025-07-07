@@ -16,6 +16,9 @@ CREATE TABLE produto (
     nome VARCHAR(50),
     inventario INT,
     categoria_id INT,
+    preco MONEY,
+    avaliacao DECIMAL(2,1)
+    marca VARCHAR (50)
     FOREIGN KEY (categoria_id) REFERENCES categoria(categoria_id)
 );
 

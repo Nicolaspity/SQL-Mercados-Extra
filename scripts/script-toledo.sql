@@ -1,12 +1,17 @@
---Consulta de todos os clientes que já fizeram ao menos uma compra.
+--Consulta todos os items contidos dentro da categoria bebidas
 SELECT 
-    cli.primeiro_nome, 
-    cli.ultimo_nome, 
-    cli.email
+    p.produto_id,
+    p.nome,
+    p.preco,
+    p.inventario,
+    cat.categoria
 FROM 
-    cliente cli
-INNER JOIN compra c ON 
-    cli.cliente_id = c.cliente_id;
+    produto p
+INNER JOIN categoria cat ON 
+    p.categoria_id = cat.categoria_id
+WHERE 
+    LOWER(cat.categoria) = 'bebidas';
+
 --Consulta do total de itens comprados por cada cliente em cada categoria.
 
 SELECT 
